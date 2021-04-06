@@ -1,0 +1,10 @@
+GET http://localhost:4005
+
+###
+POST http://localhost:4005 HTTP/1.1
+content-type: application/json
+
+{
+    "name": "sample123",
+    "time": "Wed, 21 Oct 2015 18:27:50 GMT"
+}
